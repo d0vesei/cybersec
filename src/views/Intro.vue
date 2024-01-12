@@ -13,7 +13,7 @@
     import axios from 'axios';
 
     const apiUrl = 'http://1.11.111.11/webservice/rest/server.php';
-    const token = '8cf3c609d24cb5a220b11c6f1ba8b96a';
+    const token = '';
     const getcontentIntro = 'core_course_get_contents&courseid=2';
     const contentIntro = `${apiUrl}?wstoken=${token}&wsfunction=${getcontentIntro}&moodlewsrestformat=json`;
 
