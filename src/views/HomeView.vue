@@ -45,8 +45,8 @@
     import { Slide } from 'vue3-burger-menu';
 
 
-    const apiUrl = 'http://20.215.210.19/webservice/rest/server.php';
-    const token = '8cf3c609d24cb5a220b11c6f1ba8b96a';
+    const apiUrl = 'http://1.11.111.11/webservice/rest/server.php';
+    const token = '';
 
     const getcourses = 'core_course_get_courses';
     const coursesname = `${apiUrl}?wstoken=${token}&wsfunction=${getcourses}&moodlewsrestformat=json`;
