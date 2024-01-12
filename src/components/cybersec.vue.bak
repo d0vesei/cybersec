@@ -38,8 +38,8 @@
 <script>
     import axios from 'axios';
 
-    const apiUrl = 'http://20.215.210.19/webservice/rest/server.php';
-    const token = '8cf3c609d24cb5a220b11c6f1ba8b96a';
+    const apiUrl = 'http://01.01.01.01/webservice/rest/server.php';
+    const token = '8cf3c609azurehash6a';
 
     const getcourses = 'core_course_get_courses';
     const coursesname = `${apiUrl}?wstoken=${token}&wsfunction=${getcourses}&moodlewsrestformat=json`;
