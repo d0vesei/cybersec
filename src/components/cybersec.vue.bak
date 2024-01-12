@@ -38,7 +38,7 @@
 <script>
     import axios from 'axios';
 
-    const apiUrl = 'http://01.01.01.01/webservice/rest/server.php';
+    const apiUrl = 'http://1.11.111.11/webservice/rest/server.php';
     const token = '8cf3c609azurehash6a';
 
     const getcourses = 'core_course_get_courses';
